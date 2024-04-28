@@ -31,7 +31,7 @@ pip install -r requirements.txt
 For example:
 - using the example file
 ```python
-python train.py
+python test.py
 ```
 Output:
 ```python
