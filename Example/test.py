@@ -404,7 +404,7 @@ if __name__ =="__main__":
         result = torch.argmax(output , dim =1)
         prediction = classes[result.item()]
         # Print the Output of network
-        print(pdb , "的类别是:", prediction)
+        print(pdb , "category is:", prediction)
         score =torch.softmax(output,dim =1)
         score = score.cpu().numpy()[0]
         print("N score:",score[0])
