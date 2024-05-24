@@ -34,7 +34,7 @@ python test.py
 ```
 Output:
 ```python
-t.pdb 的类别是: P
+t.pdb category is: P
 N score: 0.097184576
 P score: 0.90281546
 ```
